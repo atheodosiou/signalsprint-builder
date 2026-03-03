@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/signalsprint-builder/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignalSprint - Business Idea Validation</title>
+    <script>
+      // Redirect 404s to the index.html with the request url preserved
+      var segment = "";
+      if (
+        window.location.pathname !== "/" &&
+        !window.location.pathname.includes("/signalsprint-builder/")
+      ) {
+        segment = window.location.pathname;
+      }
+      sessionStorage.redirect = segment;
+      window.location.href = "/signalsprint-builder/";
+    </script>
+  </head>
+  <body></body>
+</html>
