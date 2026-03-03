@@ -3,9 +3,10 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-illustration.png";
 
 const microBullets = [
-  { icon: Ban, text: "Όχι άλλο generic AI report" },
-  { icon: CalendarDays, text: "14–30 ημέρες Sprint Plan" },
-  { icon: Shield, text: "Privacy-first: δεν χρειάζεται να αποκαλύψεις την ιδέα σου" },
+  { icon: Ban, text: "Not another AI report generator — deterministic engine, not a template" },
+  { icon: CalendarDays, text: "Verdict in 14–30 days: PROCEED / NARROW / KILL" },
+  { icon: Shield, text: "Privacy-first: No-idea mode available" },
+  { icon: Shield, text: "2-cycle rule & hard thresholds (No Zombie Projects)" },
 ];
 
 const Hero = () => {
@@ -20,18 +21,15 @@ const Hero = () => {
           <div className="max-w-2xl animate-fade-in-up">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-secondary px-4 py-1.5 text-xs font-medium text-muted-foreground">
               <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-              Business Idea Validation Engine
+              No-Zombie Validation Engine
             </div>
 
             <h1 className="font-display text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              Από ιδέα →{" "}
-              <span className="text-gradient-primary">σε μετρήσιμο validation plan</span>
-              , πριν γράψεις κώδικα.
+              Stop building zombie projects.
             </h1>
 
             <p className="mt-6 text-lg leading-relaxed text-muted-foreground sm:text-xl">
-              Το SignalSprint βοηθά solo builders να πάρουν απόφαση και να τρέξουν 14–30
-              ημέρες validation, με focus σε distribution και time-to-cash.
+              In 14–30 days, get a deterministic verdict based on real signals: reachability, urgency, and commitment.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -39,7 +37,7 @@ const Hero = () => {
                 size="lg"
                 className="bg-gradient-hero text-primary-foreground font-semibold text-base px-8 hover:opacity-90 animate-pulse-glow"
               >
-                Δοκίμασέ το (Free Signal Check)
+                Start Your Validation Sprint
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button
@@ -47,11 +45,11 @@ const Hero = () => {
                 size="lg"
                 className="border-border text-foreground hover:bg-secondary text-base"
               >
-                Δες πώς δουλεύει
+                View Sample Output
               </Button>
             </div>
 
-            <p className="mt-3 text-xs text-muted-foreground">~3 λεπτά • Δεν χρειάζεται κάρτα</p>
+            <p className="mt-3 text-xs text-muted-foreground">~3 minutes • No card required • Privacy-first</p>
 
             <ul className="mt-8 space-y-3">
               {microBullets.map((item) => (

@@ -1,12 +1,12 @@
 import { Radio, DollarSign, Gauge, CalendarCheck, EyeOff, FileDown } from "lucide-react";
 
 const features = [
-  { icon: Radio, title: "Distribution Score", desc: "Κανάλια & πρόσβαση — πόσο εύκολα φτάνεις στον ICP σου." },
-  { icon: DollarSign, title: "Time-to-Cash estimator", desc: "Πώς θα 'κινείται' χρήμα — πόσο γρήγορα μπορείς να δεις revenue signal." },
-  { icon: Gauge, title: "Execution Complexity", desc: "Scope control για solo builders — μέτρηση τεχνικής & λειτουργικής πολυπλοκότητας." },
-  { icon: CalendarCheck, title: "Validation Sprint blueprint", desc: "Με εβδομαδιαία milestones, outreach scripts, και μετρήσιμα experiments." },
-  { icon: EyeOff, title: "Privacy-first inputs", desc: "No-idea / redacted mode — κάνε validation χωρίς να αποκαλύψεις τίποτα." },
-  { icon: FileDown, title: "Export: PDF + Notion checklist", desc: "Πάρε το plan σου σε μορφή που μπορείς να εκτελέσεις αμέσως." },
+  { icon: Gauge, title: "Deterministic Thresholds", desc: "No vibes, no opinions, no override." },
+  { icon: DollarSign, title: "Commitment Gate", desc: "If nobody pays or commits, you don’t build." },
+  { icon: Radio, title: "No-Zombie Rule", desc: "Hard kill criteria, 2-cycle enforcement." },
+  { icon: CalendarCheck, title: "Signal Blueprint", desc: "Scripts, milestones, and experiments for execution." },
+  { icon: EyeOff, title: "Privacy-first / No-idea mode", desc: "Validate without revealing your idea." },
+  { icon: FileDown, title: "Export (PDF + Notion)", desc: "Export as a byproduct, not the core product." },
 ];
 
 const Features = () => {
@@ -16,7 +16,7 @@ const Features = () => {
         <div className="text-center">
           <h2 className="font-display text-3xl font-bold sm:text-4xl">Features</h2>
           <p className="mt-4 text-muted-foreground">
-            Κάθε feature σχεδιασμένο για solo builders με περιορισμένο χρόνο.
+            Deterministic engine. Commitment before code. No Zombie Projects.
           </p>
         </div>
 

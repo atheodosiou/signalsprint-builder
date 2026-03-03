@@ -6,11 +6,11 @@ const FinalCTA = () => {
     <section className="section-padding">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="font-display text-3xl font-bold sm:text-4xl lg:text-5xl">
-          Σταμάτα να χτίζεις{" "}
-          <span className="text-gradient-primary">στο σκοτάδι.</span>
+          Ready for a verdict?
+          <span className="text-gradient-primary"> Start your validation sprint.</span>
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Πάρε μια structured απόφαση πριν γράψεις γραμμή κώδικα.
+          Get a verdict in 14–30 days: PROCEED / NARROW / KILL — before you write code.
         </p>
 
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -18,7 +18,7 @@ const FinalCTA = () => {
             size="lg"
             className="bg-gradient-hero text-primary-foreground font-semibold text-base px-8 hover:opacity-90 animate-pulse-glow"
           >
-            Start Free Signal Check
+            Start Your Validation Sprint
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
           <Button
@@ -30,7 +30,7 @@ const FinalCTA = () => {
             View Sample Output
           </Button>
         </div>
-        <p className="mt-3 text-xs text-muted-foreground">~3 λεπτά • Χωρίς κάρτα • Privacy-first</p>
+        <p className="mt-3 text-xs text-muted-foreground">~3 minutes • No card required • Privacy-first</p>
       </div>
     </section>
   );

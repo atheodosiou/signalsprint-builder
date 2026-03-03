@@ -4,20 +4,20 @@ const steps = [
   {
     icon: ClipboardList,
     step: "01",
-    title: "Constraints & Context",
-    desc: "Συμπληρώνεις constraints & context (skills, χρόνο, αγορά, κανάλια).",
+    title: "Define Hypothesis",
+    desc: "ICP + pain + outcome.",
   },
   {
     icon: BarChart3,
     step: "02",
-    title: "Risk Map",
-    desc: "Παίρνεις Risk Map: Distribution, Complexity, Time-to-Cash, Competition signals.",
+    title: "Run Validation Sprint",
+    desc: "Outreach → interviews → commitment attempts.",
   },
   {
     icon: Rocket,
     step: "03",
-    title: "Sprint Plan",
-    desc: "Παίρνεις Sprint Plan 14–30 ημερών: outreach scripts, landing copy prompts, metrics & kill criteria.",
+    title: "Engine Verdict",
+    desc: "PROCEED / NARROW / KILL. 2-cycle limit. No zombie projects.",
   },
 ];
 
@@ -27,10 +27,10 @@ const HowItWorks = () => {
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="font-display text-3xl font-bold sm:text-4xl">
-            Πώς δουλεύει
+            How it works
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Τρία βήματα από ιδέα σε actionable plan.
+            Step 1: Define Hypothesis. Step 2: Run Validation Sprint. Step 3: Engine Verdict.
           </p>
         </div>
 
@@ -43,7 +43,7 @@ const HowItWorks = () => {
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                 <s.icon className="h-6 w-6 text-primary" />
               </div>
-              <span className="text-xs font-semibold text-primary">ΒΗΜΑ {s.step}</span>
+              <span className="text-xs font-semibold text-primary">STEP {s.step}</span>
               <h3 className="mt-2 font-display text-xl font-bold">{s.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{s.desc}</p>
             </div>

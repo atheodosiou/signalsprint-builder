@@ -3,10 +3,10 @@ import { Menu, X, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
-  { label: "Πώς δουλεύει", href: "#how-it-works" },
+  { label: "How it works", href: "#how-it-works" },
   { label: "Features", href: "#features" },
-  { label: "Σύγκριση", href: "#comparison" },
-  { label: "Τιμές", href: "#pricing" },
+  { label: "Comparison", href: "#comparison" },
+  { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
 ];
 
@@ -33,7 +33,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button size="sm" className="bg-gradient-hero text-primary-foreground font-semibold hover:opacity-90">
-              Δοκίμασέ το Free
+              Start Free
             </Button>
           </div>
 
@@ -60,7 +60,7 @@ const Navbar = () => {
               </a>
             ))}
             <Button className="mt-3 w-full bg-gradient-hero text-primary-foreground font-semibold hover:opacity-90">
-              Δοκίμασέ το Free
+              Start Free
             </Button>
           </div>
         </div>

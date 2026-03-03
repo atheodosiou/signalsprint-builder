@@ -7,7 +7,7 @@ const tiers = [
     name: "Free",
     label: "Signal Check",
     price: "€0",
-    desc: "Basic risk map + 3 suggested experiments",
+    desc: "Signal Check: risk & experiment blueprint.",
     features: [
       "Risk map (distribution, complexity, time-to-cash)",
       "3 suggested validation experiments",
@@ -21,15 +21,15 @@ const tiers = [
     label: "Sprint Plan",
     price: "€29",
     priceSuffix: "one-time",
-    desc: "Full sprint plan με scripts, metrics & kill criteria",
+    desc: "Full Sprint + Engine Verdict (Cycle 1).",
     features: [
-      "Ό,τι στο Free",
+      "Everything in Free",
       "14–30 day sprint plan",
       "Outreach scripts & landing copy prompts",
-      "Kill criteria & pivot rules",
+      "Engine verdict: PROCEED / NARROW / KILL (2-cycle rule)",
       "Export: PDF + Notion checklist",
     ],
-    cta: "Get Sprint Plan",
+    cta: "Get Sprint + Verdict",
     highlight: true,
   },
   {
@@ -37,9 +37,9 @@ const tiers = [
     label: "Private Mode + NDA",
     price: "€79",
     priceSuffix: "one-time",
-    desc: "Privacy/legal comfort για ευαίσθητες ιδέες",
+    desc: "Private Mode + NDA. Privacy-first validation.",
     features: [
-      "Ό,τι στο Pro",
+      "Everything in Pro",
       "No-idea / redacted mode",
       "NDA agreement",
       "Priority support",
@@ -57,9 +57,9 @@ const Pricing = () => {
           <Badge variant="outline" className="mb-4 border-accent text-accent">
             Beta pricing
           </Badge>
-          <h2 className="font-display text-3xl font-bold sm:text-4xl">Τιμές</h2>
+          <h2 className="font-display text-3xl font-bold sm:text-4xl">Pricing</h2>
           <p className="mt-4 text-muted-foreground">
-            Απλά, ξεκάθαρα. Χωρίς subscriptions.
+            No subscriptions. Brutal clarity.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ const Pricing = () => {
             >
               {tier.highlight && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                  <Badge className="bg-gradient-hero text-primary-foreground">Πιο δημοφιλές</Badge>
+                  <Badge className="bg-gradient-hero text-primary-foreground">Most Popular</Badge>
                 </div>
               )}
               <div>
@@ -114,7 +114,7 @@ const Pricing = () => {
         </div>
 
         <div className="mt-8 text-center text-xs text-muted-foreground">
-          <p>Τα ποσά είναι σε EUR. ΦΠΑ εφαρμόζεται βάσει χώρας. Επιστροφή χρημάτων εντός 7 ημερών αν δεν μείνεις ικανοποιημένος.</p>
+          <p>All prices in EUR. VAT applies by country. 7-day money-back guarantee if you’re not satisfied.</p>
         </div>
       </div>
     </section>

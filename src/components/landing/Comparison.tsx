@@ -6,32 +6,28 @@ const tools = ["SignalSprint", "IdeaBuddy", "ValidatorAI", "FounderPal", "Promet
 
 const rows: { label: string; values: CellValue[] }[] = [
   {
-    label: "Business planning suite & templates",
-    values: ["no", "yes", "no", "no", "yes"],
-  },
-  {
-    label: "Quick AI feedback / scoring",
-    values: ["Structured scoring + plan", "partial", "yes", "yes", "partial"],
-  },
-  {
-    label: "Founder constraints-first (solo dev <10h/week)",
+    label: "Deterministic thresholds",
     values: ["yes", "no", "no", "no", "no"],
   },
   {
-    label: "Distribution-first weighting",
+    label: "Commitment gate",
     values: ["yes", "no", "no", "no", "no"],
   },
   {
-    label: "Kill criteria & pivot rules",
+    label: "Hard kill rule",
     values: ["yes", "no", "no", "no", "no"],
   },
   {
-    label: "No-idea / privacy-first mode",
+    label: "2-cycle enforcement",
     values: ["yes", "no", "no", "no", "no"],
   },
   {
-    label: "Actionable 14–30 day sprint plan",
+    label: "Privacy-first / No-idea mode",
     values: ["yes", "no", "no", "no", "no"],
+  },
+  {
+    label: "Export (PDF/Notion)",
+    values: ["yes", "partial", "partial", "no", "partial"],
   },
 ];
 
@@ -48,8 +44,11 @@ const Comparison = () => {
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="font-display text-3xl font-bold sm:text-4xl">
-            Πώς διαφέρει από τα γνωστά tools
+            How SignalSprint is different
           </h2>
+          <p className="mt-4 text-muted-foreground">
+            Others: Planning suites, AI scoring, business templates. SignalSprint: Deterministic thresholds, commitment gate, hard kill rule, 2-cycle enforcement.
+          </p>
         </div>
 
         <div className="mt-12 overflow-x-auto rounded-xl border border-border">
@@ -91,8 +90,7 @@ const Comparison = () => {
         </div>
 
         <p className="mt-4 text-center text-xs text-muted-foreground">
-          Σημείωση: Η σύγκριση αφορά positioning & workflow, όχι το "ποιο είναι καλύτερο" συνολικά.
-          Κάθε εργαλείο εξυπηρετεί διαφορετικό job-to-be-done.
+          Note: This comparison is between a deterministic validation engine and planning/report tools. Each tool serves a different job-to-be-done.
         </p>
       </div>
     </section>

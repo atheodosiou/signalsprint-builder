@@ -1,10 +1,9 @@
 import { AlertTriangle } from "lucide-react";
 
 const bullets = [
-  "Υπερπροσφορά ιδεών → παράλυση",
-  "Οι περισσότερες ιδέες πεθαίνουν στο distribution",
-  "Χάνεις εβδομάδες σε features πριν μιλήσεις με αγορά",
-  "Τα generic validators σε 'χαϊδεύουν' με κείμενο",
+  "42% of startups fail due to no real need.",
+  "Founders validate interest, not commitment.",
+  "AI tools generate plans — not decisions.",
 ];
 
 const Problem = () => {
@@ -12,8 +11,7 @@ const Problem = () => {
     <section className="section-padding">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="font-display text-3xl font-bold sm:text-4xl">
-          Το πραγματικό bottleneck{" "}
-          <span className="text-gradient-primary">δεν είναι το build.</span>
+          The real bottleneck is the decision — not the build.
         </h2>
         <div className="mt-10 grid gap-4 text-left sm:grid-cols-2">
           {bullets.map((text) => (

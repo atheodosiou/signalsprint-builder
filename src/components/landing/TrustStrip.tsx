@@ -12,7 +12,7 @@ const TrustStrip = () => {
     <section className="border-y border-border bg-secondary/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
         <p className="mb-6 text-center text-sm font-medium text-muted-foreground">
-          Used by solo builders που θέλουν structured validation
+          Used by solo builders who want structured validation
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
           {badges.map((badge) => (

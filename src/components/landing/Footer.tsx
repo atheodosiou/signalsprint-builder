@@ -14,10 +14,10 @@ const Footer = () => {
               SignalSprint
             </a>
             <p className="mt-3 text-sm text-muted-foreground">
-              Business Idea Validation Engine για solo builders.
+              Deterministic validation, privacy-first. No Zombie Projects.
             </p>
             <p className="mt-4 text-xs text-muted-foreground">
-              We minimize data. No-idea mode available. Τα δεδομένα σου δεν πωλούνται ούτε μοιράζονται.
+              Your data is never sold or shared. No-idea mode available.
             </p>
           </div>
 
@@ -34,8 +34,8 @@ const Footer = () => {
             <div>
               <h4 className="text-sm font-semibold text-foreground">Product</h4>
               <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-                <li><a href="#how-it-works" className="hover:text-foreground transition-colors">Πώς δουλεύει</a></li>
-                <li><a href="#pricing" className="hover:text-foreground transition-colors">Τιμές</a></li>
+                <li><a href="#how-it-works" className="hover:text-foreground transition-colors">How it works</a></li>
+                <li><a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a></li>
                 <li><a href="#faq" className="hover:text-foreground transition-colors">FAQ</a></li>
               </ul>
             </div>
@@ -56,12 +56,12 @@ const Footer = () => {
                 <Send className="h-4 w-4" />
               </Button>
             </div>
-            <p className="mt-2 text-xs text-muted-foreground">Χωρίς spam. Unsubscribe οποτεδήποτε.</p>
+            <p className="mt-2 text-xs text-muted-foreground">No spam. Unsubscribe anytime.</p>
           </div>
         </div>
 
         <div className="mt-10 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-          © {new Date().getFullYear()} SignalSprint. All rights reserved.
+          © {new Date().getFullYear()} SignalSprint. Deterministic validation, privacy-first. No Zombie Projects.
         </div>
       </div>
     </footer>
